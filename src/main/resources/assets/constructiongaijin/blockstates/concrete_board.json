@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=down": {"model": "constructiongaijin:block/concrete_board", "x": 180 },
+        "facing=up": {"model": "constructiongaijin:block/concrete_board" },
+        "facing=north": {"model": "constructiongaijin:block/concrete_board", "x": 90 },
+        "facing=south": {"model": "constructiongaijin:block/concrete_board", "x": 90 },
+        "facing=west": {"model": "constructiongaijin:block/concrete_board", "x": 90, "y": 270},
+        "facing=east": {"model": "constructiongaijin:block/concrete_board", "x": 90, "y": 90}
+    }
+}

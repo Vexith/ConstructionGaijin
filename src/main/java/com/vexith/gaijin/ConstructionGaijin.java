@@ -1,9 +1,7 @@
 package com.vexith.gaijin;
 
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.resources.ResourceLocation;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,9 +20,5 @@ public class ConstructionGaijin implements ModInitializer {
 		// Proceed with mild caution.
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
-	}
-
-	public static ResourceLocation id(String path) {
-		return new ResourceLocation(MOD_ID, path);
 	}
 }
